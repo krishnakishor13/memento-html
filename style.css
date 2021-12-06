@@ -1,0 +1,215 @@
+/* ####################
+#######################
+Main
+######################
+################### */
+
+html {
+  background-color: #3c3c3c;
+  font-family: "Silom";
+}
+
+/* ####################
+#######################
+Nav Bar
+######################
+################### */
+
+.nav {
+  width: 100%;
+  background-color: #535353;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .cart {
+  display: flex;
+}
+
+.navbar .cart img {
+  height: fit-content;
+}
+
+.nav .navbar h2 {
+  color: white;
+}
+
+.nav .navbar .store {
+  color: #ff8000;
+}
+
+.nav .cart {
+  color: white;
+}
+
+/* ####################
+#######################
+Main image
+######################
+################### */
+
+.mainimg img {
+  width: 100%;
+}
+
+.scroll h2 {
+  color: white;
+}
+
+.scroll .scrollitems {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.scrollitems img {
+  margin-right: 15px;
+}
+
+.scroll .scrollitems .scrolltext img {
+  width: 29%;
+}
+
+/* ####################
+#######################
+Items Section
+######################
+################### */
+
+.tags {
+  display: flex;
+  padding: 20px 5px;
+}
+
+.tags button {
+  background-color: #3c3c3c;
+  color: white;
+  border-radius: 15px;
+  border-color: 1px solid white;
+  font-style: italic;
+  font-weight: 10;
+  font-family: "Times New Roman";
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.items {
+  width: 100%;
+}
+
+.items .itemimg {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 0 0 10px;
+}
+
+.items .itemimg .itemprice {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items .itemimg .itemtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.items button {
+  background-color: #ff8000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  height: 30px;
+}
+
+.items .itemimg img {
+  width: 35%;
+}
+
+@media screen and (max-width: 700px) {
+  .items button {
+    height: 32px;
+  }
+}
+
+/* ####################
+#######################
+Footer
+######################
+################### */
+
+footer {
+  width: 100%;
+  background-color: #535353;
+  color: white;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+footer button {
+  background-color: #ff8000;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+}
+
+/* ####################
+#######################
+Shipping
+######################
+################### */
+
+.shipping h1 {
+  color: white;
+}
+
+.shipping .shipping-list .cart-name ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: #ff8000;
+}
+
+.shipping .shipping-list .total ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+/* ####################
+#######################
+Shipping-forms
+######################
+################### */
+
+.shipping-form .forms form {
+  display: grid;
+  place-items: center;
+  color: white;
+  background-color: #ff8000;
+  align-items: center;
+  /* padding: 24px 50px; */
+  border-radius: 20px;
+  width: max-content;
+}
+
+.shipping-form .forms input {
+  border-radius: 20px;
+  border: none;
+}
