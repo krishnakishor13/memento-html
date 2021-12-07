@@ -200,16 +200,42 @@ Shipping-forms
 
 .shipping-form .forms form {
   display: grid;
-  place-items: center;
   color: white;
   background-color: #ff8000;
   align-items: center;
-  /* padding: 24px 50px; */
-  border-radius: 20px;
-  width: max-content;
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding: 20px;
 }
 
+.shipping-form .forms form button {
+    width: 31%;
+    height: 85%;
+    border: none;
+    background-color: #535353;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 19px;
+    margin-left: 36%;
+    font-size: 17px;
+  }
+
 .shipping-form .forms input {
-  border-radius: 20px;
-  border: none;
+    width: 79%;
+    height: 36px;
+    margin: 3px auto;
+    border-radius: 5px;
+    border: none;
+}
+
+.shipping-form .forms label {
+    margin-left: 11%;
+    margin-top: 49px;
+}
+
+.shipping {
+    margin: auto;
+    padding: 8%;
 }
